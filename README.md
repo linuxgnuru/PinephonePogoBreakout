@@ -1,5 +1,7 @@
 # PinephonePogoBreakout
 
+This fork is to add a 0.9v-5v to 5v dc-dc step-up voltage boost so we can use the battery pogo pin when not connected to the usb-c plug.  It also adds sda / slc to the silk screen instead of just i2c twice
+
 A breakout board for the Pinephone's expansion port, which consists of 6 pogo pins connected to I2C (SDA and SCL), the battery (at 3.8V), a 3.3V power rail (or is it 5V? Not confirmed yet), an interrupt pin, and GND.
 
 
